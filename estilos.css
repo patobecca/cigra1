@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./fotos/backgroudcigra.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar {
+    background-color: #318826;
+}
+.tituloEmpresa {
+    margin: 5%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    width: 50%;
+}
+.subtituloEmpresa {
+    margin: 5%;
+    width: 50%;
+}
+.sucursales {
+    width: 20%;
+    display: flex;
+    margin: 10px;
+}
+.card {
+    margin: 25px;
+}
+.we {
+display: flex;
+border-radius: 10%;
+}
+.carousel {
+    width: 50%;
+    margin: 20%;
+}
+.carousel-item img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.footer {
+    padding: 20%;
+}
