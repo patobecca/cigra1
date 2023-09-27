@@ -45,6 +45,10 @@ border-radius: 10%;
     object-fit: cover;
     border-radius: 10%;
 }
+.carousel button {
+    border-radius: 20%;
+    justify-content: center;
+}
 .footer {
     padding: 20%;
 }
